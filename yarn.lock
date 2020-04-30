@@ -1542,9 +1542,9 @@ isstream@~0.1.2:
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
 jquery@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
-  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -2694,6 +2694,22 @@ traaittcash-crypto@^4.0.7:
     nan "^2.14.0"
     traaittcash-crypto "^4.0.7"
 
+traaittcash-wallet-backend@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/traaittcash-wallet-backend/-/traaittcash-wallet-backend-5.1.0.tgz#3e6b617a8122e67a8e7deac674b41c53658f82f3"
+  integrity sha512-MizmSH+6EHKVuKHViENeL6YQx97ls3Q31UxN6u9bamu+TKBghwGVMmsm4SR2o+ffiMWDsD46kVq8JMMp4Nk3ow==
+  dependencies:
+    lodash "^4.17.15"
+    object-sizeof "^1.5.2"
+    pbkdf2 "^3.0.17"
+    request "^2.88.0"
+    request-promise-native "^1.0.8"
+    traaittcash-wallet-backend "^5.1.0"
+    traaittplatform-utils "^1.0.21"
+    tsc "^1.20150623.0"
+    typescript "^3.6.4"
+    webpack "^4.41.5"
+
 traaittplatform-utils@^1.0.21:
   version "1.0.21"
   resolved "https://registry.yarnpkg.com/traaittplatform-utils/-/traaittplatform-utils-1.0.21.tgz#4ca844a3b993e6e0d96325edceecd3268c7fb141"
@@ -2706,22 +2722,6 @@ traaittplatform-utils@^1.0.21:
     varint "^5.0.0"
   optionalDependencies:
     traaittcash-crypto "^4.0.7"
-
-traaittcash-wallet-backend@^5.0.6, traaittcash-wallet-backend@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/traaittcash-wallet-backend/-/traaittcash-wallet-backend-5.0.7.tgz#7297df671bfaaa3f1dfe44443596af12272ad93c"
-  integrity sha512-4A6cvxk43JXOxl+E9/pF5mxD+i26JWmkoJ9D0Pb2yfTfQGg8Vb2ghE+aARLBVWMojF8GyMAdiiXfrIxr1JdMCw==
-  dependencies:
-    lodash "^4.17.15"
-    object-sizeof "^1.5.2"
-    pbkdf2 "^3.0.17"
-    request "^2.88.0"
-    request-promise-native "^1.0.8"
-    traaittplatform-utils "^1.0.21"
-    traaittcash-wallet-backend "^5.0.6"
-    tsc "^1.20150623.0"
-    typescript "^3.6.4"
-    webpack "^4.41.5"
 
 tsc@^1.20150623.0:
   version "1.20150623.0"
