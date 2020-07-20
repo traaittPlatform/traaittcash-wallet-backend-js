@@ -300,15 +300,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-lodash@^4.17.11:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
-
-lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.17.11, lodash@^4.17.15:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -510,13 +505,6 @@ tough-cookie@~2.4.3:
     psl "^1.1.24"
     punycode "^1.4.1"
 
-tunnel-agent@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
-  integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
-  dependencies:
-    safe-buffer "^5.0.1"
-
 traaittcash-crypto@^3.0.5:
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/traaittcash-crypto/-/traaittcash-crypto-3.0.5.tgz#a6a4ebd2775eb26d18eb4e4bd83b00ec7be66796"
@@ -533,6 +521,17 @@ traaittcash-rpc@^1.0.2:
     request "^2.88.0"
     request-promise-native "^1.0.7"
 
+"traaittcash-wallet-backend@https://github.com/traaittcash/traaittcash-wallet-backend-js":
+  version "4.0.5"
+  resolved "https://github.com/traaittcash/traaittcash-wallet-backend-js#8148d58ce054f4d39a5a0043c302b05cd4d6414f"
+  dependencies:
+    lodash "^4.17.15"
+    object-sizeof "^1.5.1"
+    pbkdf2 "^3.0.17"
+    traaittcash-rpc "^1.0.2"
+    traaittplatform-utils "^1.0.6"
+    typescript "^3.6.2"
+
 traaittplatform-utils@^1.0.6:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/traaittplatform-utils/-/traaittplatform-utils-1.0.9.tgz#7931154c639c6d9b6e4a373689aa956e8ca981fb"
@@ -546,16 +545,12 @@ traaittplatform-utils@^1.0.6:
   optionalDependencies:
     traaittcash-crypto "^3.0.5"
 
-"traaittcash-wallet-backend@https://github.com/traaittcash/traaittcash-wallet-backend-js":
-  version "4.0.5"
-  resolved "https://github.com/traaittcash/traaittcash-wallet-backend-js#8148d58ce054f4d39a5a0043c302b05cd4d6414f"
+tunnel-agent@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz#27a5dea06b36b04a0a9966774b290868f0fc40fd"
+  integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
-    lodash "^4.17.15"
-    object-sizeof "^1.5.1"
-    pbkdf2 "^3.0.17"
-    traaittcash-rpc "^1.0.2"
-    traaittplatform-utils "^1.0.6"
-    typescript "^3.6.2"
+    safe-buffer "^5.0.1"
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
